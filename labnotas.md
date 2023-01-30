@@ -20,9 +20,9 @@ Step | Image | Description
 3 | ![QGIS3](screenshots/QGIS_addStyle3.png) | Now click on the Theme Manager eye icon and Add Theme. Name this theme overview and click 'OK' to save it.
 4 | ![QGIS4](screenshots/QGIS_addStyle4.png) | Open a New Print Layout (cmd+P/alt+P) and 'Add Map' for the main map. Repeat this for the second map. Finally, under Item Properties > Layers, choose _overview_ as the map theme to follow for the second map.
 
-Making a simple flagmap:
+<!-- Making a simple flagmap:
 Step | Image | Tip
--|-|-
+-|-|- -->
 
 ### GitHub
 - Forking a GitHub repository 
