@@ -52,9 +52,76 @@ Image | Description
 ![OSM2](screenshots/OSM_attributes.png) | Upon digitising your point, line or polygon, Edit Feature allows adding attributes to your data. 
 ![OSM3](screenshots/OSM_HOT.png) | Using the same OSM account, you can contribute to the Humanitarian OpenStreetMap Team (HOT) projects to help scholars and developers throughout the world. The more accurate edits, the higher your score and the more reliable you are considered to be.
 
+_
 
+## :zero: :one: Working with Binary Numbers
+Refined by Gottfried Leibniz, who realised that the binary number system comobined principles of arithmetic & logic. Binary is how the computer calculates, communicates data via data signals. It is a number expressed in the base-2 numeral system[^1]. Just 0 and 1. Two unique characters to represent a world of numbers.  
+The number of patterns possible is = 2^bits^
 
+<!-- Footnote -->
+[^1]: 
+0 0 0 - 3 BInary digiT (bit) number
+^ ^ ^
+4 2 1 - Binary number (these are multiples of two)
 
+3-bit binary numbers:
+
+<table>
+  <tr>
+    <th>Binary</th>
+    <td>000</td>
+    <td>001</td>
+    <td>010</td>
+    <td>011</td>
+    <td>100</td>
+    <td>101</td>
+    <td>110</td>
+    <td>111</td>
+  </tr>
+  <tr>
+    <th>Decimal</th>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+</table>
+
+It follows that 2^bits^ = the number of decimal digits that can be represented 
+
+6-bit binary number:
+
+<table>
+  <tr>
+    <th>Bit</th>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <th>Base</th>
+    <td>128</td>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+</table>
+
+This 6-bit number is 149 in decimal digits. 
+
+>Computer memory is organized into groups of eight bits. Each eight-bit group is called a byte. Because it has 8 bits, it can store 2^8^ or 256 unique values
 <!-- EXAMPLE CODE -->
 <!-- Example code block -->
 <!-- ```json
