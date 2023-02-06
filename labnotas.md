@@ -203,7 +203,10 @@ GPU - improves significantly on the graphics output of the system and can do CPU
 
 RAM is the retrievable and changeable memory of the computer while ROM is data that cannot be modified after the manufacture of the storage device. It primarily stores software that barely changes.
 
-A Solid-state drive (SSD) stores and retrieves digital info using only electronic circuits, without any involvement of moving mechanical parts. 
+A Solid-state drive (SSD) stores data on interconnected flash-memory chips and retrieves digital info using only electronic circuits without any involvement of moving mechanical parts while the traditional hard drive is the basic non-volatile storage that doesn't "go away" when you turn off the system with a read/write head on an arm (or a set of them) accesses the data while the platters are spinning.[^2]
+
+[^2]: https://www.pcmag.com/news/ssd-vs-hdd-whats-the-difference
+
 
 _
 
