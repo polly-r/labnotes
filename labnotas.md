@@ -53,18 +53,20 @@ Image | Description
 ![OSM3](screenshots/OSM_HOT.png) | Using the same OSM account, you can contribute to the Humanitarian OpenStreetMap Team (HOT) projects to help scholars and developers throughout the world. The more accurate edits, the higher your score and the more reliable you are considered to be.
 
 _
-
-## :zero: :one: Working with Binary Numbers
+## Computer Logic
+### :zero::one: Working with Binary Numbers
 Refined by Gottfried Leibniz, who realised that the binary number system comobined principles of arithmetic & logic. Binary is how the computer calculates, communicates data via data signals. It is a number expressed in the base-2 numeral system[^1]. Just 0 and 1. Two unique characters to represent a world of numbers.  
 The number of patterns possible is = 2^bits^
 
 <!-- Footnote -->
-[^1]: 
-0 0 0 - 3 BInary digiT (bit) number
-^ ^ ^
-4 2 1 - Binary number (these are multiples of two)
+[^1]: https://computerscience.chemeketa.edu/cs160Reader/Binary/Bytes.html
 
-3-bit binary numbers:
+0 0 0 0 - 4 Binary digit (bit) number
+^ ^ ^ ^
+8 4 2 1 - Binary base number (these are multiples of two)
+
+For example,
+1.  3-bit binary numbers:
 
 <table>
   <tr>
@@ -91,9 +93,10 @@ The number of patterns possible is = 2^bits^
   </tr>
 </table>
 
-It follows that 2^bits^ = the number of decimal digits that can be represented 
+We see that  2^bits^ = the number of unique decimal digits that can be represented.
 
-6-bit binary number:
+
+2. 8-bit binary number:
 
 <table>
   <tr>
@@ -119,9 +122,81 @@ It follows that 2^bits^ = the number of decimal digits that can be represented
     <td>1</td>
 </table>
 
-This 6-bit number is 149 in decimal digits. 
+This 8-bit number is 149 in decimal digits [149~10~]. 
 
 >Computer memory is organized into groups of eight bits. Each eight-bit group is called a byte. Because it has 8 bits, it can store 2^8^ or 256 unique values
+
+### :one::six: Working with Hexadecimals
+
+Hexadecimal is base 16. It uses half a byte or _nibbles_ to represent numbers.
+
+<table>
+  <tr>
+    <th>Hexadecimal</th>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <th>Decimal</th>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+</table>
+
+A hexadecimal number:
+<table>
+  <tr>
+    <th>Hexadecimal</th>
+    <td>1</td>
+    <td>E</td>
+    <td>A</td>
+  </tr>
+  <tr>
+    <th>Base</th>
+    <td>256</td>
+    <td>16</td>
+    <td>1</td>
+</table>
+
+So the hexadecimal number 1EA is (256 x 1) + (16 x 14) + (1 x 10) = 490~10~
+
+
+### Some terms
+CPU - Controls all activities and can be considered the home of switches on the motherboard.
+
+GPU - improves significantly on the graphics output of the system and can do CPU functions under peak performance.
+
+RAM is the retrievable and changeable memory of the computer while ROM is data that cannot be modified after the manufacture of the storage device. It primarily stores software that barely changes.
+
+A Solid-state drive (SSD) stores and retrieves digital info using only electronic circuits, without any involvement of moving mechanical parts. 
+
 <!-- EXAMPLE CODE -->
 <!-- Example code block -->
 <!-- ```json
