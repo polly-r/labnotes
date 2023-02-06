@@ -12,6 +12,14 @@ Image | Tip
 ![QGIS2](screenshots/QGIS_tip1.48.png) | When styling labels, do not use both a shadow and buffer. Choose one to keep the map simple.
 ![QGIS3](screenshots/world.png) | Replace coordinates in Coordinate box with the word 'world' to display the world map.
 
+<h3 style="text-align: center">Simple Africa Map</h3>
+
+![Simple Africa Map](screenshots/Map1.png) 
+To succesfully create the above, we first display the World Map by replacing the values in the Coordinate text box with 'world', create a geopackage and drag the world basemap into this geopackage.
+We then calculate and create a new attribute data for the Scoring System Countries via the field calculator. This allows us to style just relevant countries. Label the countries using callouts, manually placing them to reduce clutter. Create a new theme and save this style. Create another theme called overview and style the world map monochrome with no brush stroke. Save the style to the new theme, this will be for the inset map.
+We're then ready to initiate a map layout. Add graticules and change the CRS' to a projected CRS. Add your basic map elements and inset map ensuring that it is cropped to a circle shape. Change the CRS' of both the main map and inset. Insert a textbox below the map to annotate it with its map CRS. We use the expression builder to do this.
+
+
 #### Procedures
 
 Adding an inset map:
@@ -53,8 +61,8 @@ Image | Description
 ![OSM3](screenshots/OSM_HOT.png) | Using the same OSM account, you can contribute to the Humanitarian OpenStreetMap Team (HOT) projects to help scholars and developers throughout the world. The more accurate edits, the higher your score and the more reliable you are considered to be.
 
 _
-## Computer Logic
-### :zero::one: Working with Binary Numbers
+## :computer: Computer Logic
+### Working with Binary Numbers
 Refined by Gottfried Leibniz, who realised that the binary number system comobined principles of arithmetic & logic. Binary is how the computer calculates, communicates data via data signals. It is a number expressed in the base-2 numeral system[^1]. Just 0 and 1. Two unique characters to represent a world of numbers.  
 The number of patterns possible is = 2^bits^
 
@@ -126,7 +134,7 @@ This 8-bit number is 149 in decimal digits [149~10~].
 
 >Computer memory is organized into groups of eight bits. Each eight-bit group is called a byte. Because it has 8 bits, it can store 2^8^ or 256 unique values
 
-### :one::six: Working with Hexadecimals
+### Working with Hexadecimals
 
 Hexadecimal is base 16. It uses half a byte or _nibbles_ to represent numbers.
 
@@ -198,6 +206,18 @@ RAM is the retrievable and changeable memory of the computer while ROM is data t
 A Solid-state drive (SSD) stores and retrieves digital info using only electronic circuits, without any involvement of moving mechanical parts. 
 
 _
+
+## Scratch
+[Scratch](https://scratch.mit.edu/) is a coding interface for children and a coding language with a simple visual interface that allows young people to create digital stories, games, and animations. It simplifies the coding process with drag-and-drop functionality for all kinds of inputs. It is perfect for intoducing beginners to the world of coding.
+
+
+**My Ping Game** (code below):
+<iframe src="https://scratch.mit.edu/projects/796534306/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+![QGIS1](screenshots/Scratch1.png) 
+
+
+
 
 
 
