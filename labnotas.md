@@ -197,6 +197,10 @@ RAM is the retrievable and changeable memory of the computer while ROM is data t
 
 A Solid-state drive (SSD) stores and retrieves digital info using only electronic circuits, without any involvement of moving mechanical parts. 
 
+_
+
+
+
 <!-- EXAMPLE CODE -->
 <!-- Example code block -->
 <!-- ```json
