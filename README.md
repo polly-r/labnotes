@@ -1,2 +1,2 @@
-#Jotter
-Kartoza Handbook tips, tricks, common issues.
+# Jotter
+Handbook tips, tricks, common issues.
