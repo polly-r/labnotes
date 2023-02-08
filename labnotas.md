@@ -63,7 +63,7 @@ Image | Description
 _
 ## :computer: Computer Logic
 ### Working with Binary Numbers
-Refined by Gottfried Leibniz, who realised that the binary number system comobined principles of arithmetic & logic. Binary is how the computer calculates, communicates data via data signals. It is a number expressed in the base-2 numeral system[^1]. Just 0 and 1. Two unique characters to represent a world of numbers.  
+Refined by Gottfried Leibniz, who realised that the binary number system combined principles of arithmetic & logic. Binary is how the computer calculates, communicates data via data signals. It is a number expressed in the base-2 numeral system[^1]. Just 0 and 1. Two unique characters to represent a world of numbers.  
 The number of patterns possible is = 2^bits^
 
 <!-- Footnote -->
@@ -210,14 +210,14 @@ A Solid-state drive (SSD) stores data on interconnected flash-memory chips and r
 
 _
 
-## Scratch
+## :pencil: Scratch
 [Scratch](https://scratch.mit.edu/) is a coding interface for children and a coding language with a simple visual interface that allows young people to create digital stories, games, and animations. It simplifies the coding process with drag-and-drop functionality for all kinds of inputs. It is perfect for intoducing beginners to the world of coding.
 
 
 **My Ping Game** (code below):
 <iframe src="https://scratch.mit.edu/projects/796534306/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-![QGIS1](screenshots/Scratch1.png) 
+![Scratch1](screenshots/Scratch1.png) 
 
 
 
