@@ -221,6 +221,9 @@ _
 
 
 
+## Animated GIFs - Synfig
+
+
 
 
 

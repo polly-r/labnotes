@@ -122,6 +122,17 @@ for x in class:
 > Suvi Merc
 > SUV Audi
 
+# While loop that prints, for loop that does the same.
+#While
+name_list = [""]
+idx = 0
+while idx < len(name_list):
+  print(name_list[idx])
+  idx += 1
+
+#For
+for name in name_list:
+  print(name)
 ```
 
 ## Collections
