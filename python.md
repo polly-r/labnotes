@@ -7,7 +7,7 @@ With over 415 000 libraries, Python was designed to be highly extensible as it p
 
 Example libraries installation:
 ```python
-!pip install numpy
+!pip install numpy # %pip install numpy on MacOS
 !pip install geopandas
 !pip install fuzzywuzzy
 !pip install matplotlib
@@ -138,21 +138,34 @@ for name in name_list:
 ## Collections
 - List
 
-Are indexed from [0] and are thus ordered and allow duplicates. 
+Are indexed from [0] and are thus ordered and allow duplicates and appendages. 
 ```python
-list = [1, 2, 3, 3]
-print(list)
+> list = [1, 2, 3, 3]
+> print(list)
+> print(list[-2:])
+> print(list[0:2])
+> print(list[0::2])
 
-> 1, 2, 3, 3
+[1, 2, 3, 3]
+[3, 3]
+[1, 2]
+[2, 3]
 ```
 - Set
 
 Not indexed so unordered, unchangeable, and do not allow duplicate values.
 ```python
-set = {1, 2, 3, 3, 4, 4, 4}
-print(set)
+> set = {1, 2, 3, 3, 4}
+> b = {1,2}
+> print(set)
+> print(set.add(5)) # It will add but 
+> print(set.union(b))
+> dir(set) # Shows the available functions
 
-> 1, 2, 3, 4
+1, 2, 3, 4
+1, 2, 3, 4, 5
+
+
 ```
 
 
@@ -168,31 +181,92 @@ print(tuple)
 
 - Dictionary
 
-Stores data values in key:value pairs.
+Stores data values in key:value pairs. It is by far the most used of the collections.
 It is ordered, changeable (editable) but does not allow duplicates, as every key must be unique.
 
 
 ```python
-dict = 
+> dict = 
 {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
   "year": 1958
 }
-print(dict)
-
-> {'brand': 'Ford', 'model': 'Mustang', 'year': 1958}
+> print(dict)
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1958}
 
 # Dict method of creating dictionaries
-d = dict(name = "Community", genre = "Comedy", year = "2007")
-print(d)
-
-> {'name': 'Community', 'genre': 'Comedy', 'year': '2007'}
+> d = dict(name = "Community", genre = "Comedy", year = "2007")
+> print(d)
+{'name': 'Community', 'genre': 'Comedy', 'year': '2007'}
 ```
+
+## Error Handling
+This helps us fix problems that occur as a result of user input or incorrect logic. This prevents breaks in the code that may shut down the programme.
+
+In the **'try'**  block, we type the code that is prone to error in the hope that the **'except'** block will pick up on the error and handle it more gracefully. The **'else'** block is for the event that there is no error while in **'finally'** will be executed regardless of whether the error occurred or not.
+
+```python
+lat = 'text'
+
+try:
+  lat = input('Latitude: ')
+except Exception: #Exception catches all errors
+  print('Error')
+else:
+  print('No error bro.')
+```
+
+## File Handling
+```python
+f = open('file.txt') # By default, it opens using read. It opens but is not editable.
+
+"r" - read   
+"c" - create
+"a" - append: f = open('file.txt','a')
+              f.write('new content')
+
+"w" - write:  f = open('file.txt','w') # Overwrites existing file content
+              f.write('new content')
+
+# Loop through file
+f = open('file.txt','w')
+for i in range(10):
+  f.write(f'{i}\n')
+```
+
 ## Functions
 ```python
-def addition(a, b):
-     print(a, b)
+> def addition(a, b):
+     return(a + b)
 
+> sum = addition(1, 2) # Fixed argument i.e. it requires all arguments
+> print(sum)
+3
+
+> def addition(a = 0, b = 0): # Non-fixed
+     print(a + b)
+> addition(2) # It assigns a = 2 while b = 0 since no different argument is inputted
+2
+```
+## Classes
+
+```python
+class Human:
+  x = 2
+
+    def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+    def __str__(self): # Useful for printing just the object itself
+      return f'{self.name}, {self.age}
+
+    def eat(self, food): # Add another object
+      print("I'm eating " + food)
+
+> zakki = Human('Zakki', 16)
+> print(zakki)
+> zakki.eat('pizza')
 ```

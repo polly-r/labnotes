@@ -8,7 +8,7 @@
 
 Image | Tip
 -|:-:
-![QGIS1](screenshots/OSM_bkgrounds.jpg) | The geographic coordinate system tells us where the data is located on the earth's surface and the projected coordinate system tells the data how to draw on a flat surface, like on a paper map or a computer screen.
+![QGIS1](https://www.esri.com/arcgis-blog/wp-content/uploads/2022/02/cloth.jpg) | The geographic coordinate system tells us where the data is located on the earth's surface and the projected coordinate system tells the data how to draw on a flat surface, like on a paper map or a computer screen.
 ![QGIS2](screenshots/QGIS_tip1.48.png) | When styling labels, do not use both a shadow and buffer. Choose one to keep the map simple.
 ![QGIS3](screenshots/world.png) | Replace coordinates in Coordinate box with the word 'world' to display the world map.
 
@@ -221,7 +221,15 @@ _
 
 
 
-## Animated GIFs - Synfig
+## :movie_camera: Animated GIFs - Synfig
+- Interface 
+
+Image | Tip
+-|:-:
+![Synfig1](screenshots/synfig1.png) | Images/SVGs can be added onto the canvas and they are shown in the Layers panel.
+![Synfig2](screenshots/synfig2.png) | Clicking on the little green figure activates animate editing mode that allows you to set up images on the canvas according to where you want them at a specific time.
+![Synfig3](screenshots/synfig3.png) | The time referred to is 'measured' in frames with the box at the bottom left of the canvas indicating the Current Frame (Frame 0 in the image) and the next showing the End Frame. The green figure has become red and running, indicating that animate editing mode is active.
+
 
 
 
