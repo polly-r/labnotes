@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 To download PostgreSQL on Mac, I have found the simplest method to be by downloading the Postgress.app.\
+\
+Before starting, ensure that all instances of Postgres are uninstalled/deleted from the system as the app cannot start while \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 another server is already running on the same port\kerning1\expnd0\expndtw0 \outl0\strokewidth0 .\
+\
+- Homebrew\
+Homebrew can be employed for this. It is worth noting here that \'93postgresql\'94 is being deprecated so if your Homebrew download was version specific (e.g brew install postgresql@15), then you would simply add \'93@\'93 and the version installed on your system. \
+The Homebrew statement for uninstalling: \
+```terminal\
+$ brew remove postgresql\
+```\
+\
+- EnterpriseDB\
+If Enterprise DB was used to install, the Postgres uninstall package is usually found at:\
+Users > \{user\} > Library > PostgreSQL , opening the file will uninstall PostgreSQL and associated applications such a pgAdmin.\
+More auxiliary files can be found at: Users > \{user\} > Library > Application Support. Search for and delete any other existing Postgres files. Be careful not to delete Postgres files linking to other apps such as MAMP, Anaconda, Ruby.\
+\
+Starting installation:\
+Visit https://postgresapp.com/ to download the latest .dmg file, initialise a server and configure a $PATH to enable command line tools.\
+\
+Upon following the instructions, one can get started with Chapter 15 in the terminal. Graphical clients such as Postico and pgAdmin 4 are excellent at limiting the coding required to navigate databases.}
