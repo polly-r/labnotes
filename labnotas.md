@@ -231,6 +231,8 @@ Image | Tip
 ![Synfig3](screenshots/synfig3.png) | The time referred to is 'measured' in frames with the box at the bottom left of the canvas indicating the Current Frame (Frame 0 in the image) and the next showing the End Frame. The green figure has become red and running, indicating that animate editing mode is active.
 
 
+## :scroll: User Acceptance Testing  
+When doing UAT, being thorough is your best friend. Put yourself in the shoes of a curious, first time user who wants to explore as much as they can of a specific feature/requirement. 
 
 
 

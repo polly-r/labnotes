@@ -1,3 +1,5 @@
+## :elephant: PostgreSQL
+
 [To install PostgreSQL on Mac](https://www.postgresql.org/download/macosx/), I have found the simplest method to be by downloading the Postgres.app.
 
 Before starting, ensure that all instances of Postgres are uninstalled/deleted from the system because the app cannot start while another server is already running on the same port.

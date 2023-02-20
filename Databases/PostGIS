@@ -1,0 +1,7 @@
+
+## :elephant: PostGIS
+PostGIS is basically an extension of Postgres that allows us to manipulate spatial data as we would other types of data. The power of this is that SQL queries tend to be the quicker and more efficient way of searching, sorting, filtering, adding or removing rows or columns in spatial databases.
+
+[Spatial Data Management](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPcvp0ETujkLVCmKIGj-YvlG)
+
+The below exercises are from [CrunchyData](https://www.crunchydata.com/developers/playground/basics-of-postgis). 
