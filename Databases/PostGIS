@@ -1,7 +1,62 @@
 
 ## :elephant: PostGIS
-PostGIS is basically an extension of Postgres that allows us to manipulate spatial data as we would other types of data. The power of this is that SQL queries tend to be the quicker and more efficient way of searching, sorting, filtering, adding or removing rows or columns in spatial databases.
+PostGIS is basically an extension of Postgres that allows us to manipulate spatial data as we would other types of data. The power of this is that SQL queries tend to be the quicker and more efficient way of searching, sorting, filtering, adding or removing rows or columns in spatial databases, so using this in spatial databases somewhat improves efficiency.
 
-[Spatial Data Management](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPcvp0ETujkLVCmKIGj-YvlG)
+[Spatial Data Management](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPcvp0ETujkLVCmKIGj-YvlG) 
 
-The below exercises are from [CrunchyData](https://www.crunchydata.com/developers/playground/basics-of-postgis). 
+In the terminal, connect to Postgres:
+```
+psql
+```
+List all databases, connect to your desired database:
+```
+\l
+
+\c tester
+```
+
+You can then select all from a table or simply describe a table (here we describe the 'people' table):
+```
+\d 
+```
+
+We can then go ahead and start our geodatabase manipulations The below code lists all the functions related to points and text.
+```
+\df *point*
+\df *text
+```
+There are several ways of making a point. For example:
+- st_pointfromwkb
+- st_pointfromgeohash
+- st_pointfromtext
+
+We use ```st_pointfromtext``` to initialise the point POINT(1 1) which yields a well-known-binary that we can convert to an easily interpretable text via ```st_astext```:
+```sql
+SELECT st_astext(st_pointfromtext('POINT(1 1)'))
+```
+![st_astext](../screenshots/st_astext.png)
+
+The above point can be considered to just exist in space. It is not in any table. We do that next.
+
+#### Add geometry to table
+So, we've basically added PostGIS to do this! 
+We add a geometry column to the table with the constraint that specifies the type of geometry accepted - text.
+```sql
+ALTER TABLE people ADD COLUMN geom geometry;
+ALTER TABLE people
+ADD CONSTRAINT people_geom_point_chk
+ check(st_geometrytype(geom) = 'ST_Polygon'::text 
+   OR the_geom IS NULL);
+```
+- Add to geometry_columns (used by some applications to recognise geometry data)
+  ```
+  insert into geometry_columns values
+  ('','public','people','geom',2,4326,'POINT');
+  ```
+Then finally, we add a record:
+```sql
+INSERT INTO people 
+(name, dob, street_id, phonenum, geom) 
+VALUES
+('Fault Towers','1999-08-27',3,'072 812 31 28','SRID=4326;POINT(33 -33)');
+
