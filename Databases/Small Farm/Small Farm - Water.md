@@ -36,13 +36,11 @@ CREATE TABLE water_polygon(
 	estimated_depth FLOAT NOT NULL,
 	image TEXT,
 	geometry GEOMETRY(POLYGON, 4326),
-	last_update TIMESTAMP DEFAULT NOW() NOT NULL,
-	last_updated_by TEXT NOT NULL,
 	uuid TEXT NOT NULL  (unique),
 	water_source_uuid TEXT UNIQUE NOT NULL REFERENCES water_source(uuid),
 	type_uuid TEXT UNIQUE NOT NULL REFERENCES water_polygon_type(uuid)
 	
-);
+) INHERITS (base_table);
 
 -- WATER POINT TYPE
 CREATE TABLE water_point_type (
@@ -64,7 +62,7 @@ CREATE TABLE water_point(
 	geometry GEOMETRY (Point, 4326),
 	uuid TEXT UNIQUE NOT NULL,
 	water_source_uuid TEXT UNIQUE NOT NULL REFERENCES water_source(uuid),
-	water_source_type TEXT UNIQUE NOT NULL REFERENCES water_source_type(uuid)
+	water_point_type TEXT UNIQUE NOT NULL REFERENCES water_point_type(uuid)
 	
 );
 
@@ -88,15 +86,13 @@ CREATE TABLE water_line(
 	estimated_depth FLOAT NOT NULL,
 	image TEXT,
 	geometry GEOMETRY(POLYGON, 4326),
-	last_update TIMESTAMP DEFAULT NOW() NOT NULL,
-	last_updated_by TEXT NOT NULL,
 	uuid TEXT NOT NULL  (unique),
 	water_source_uuid TEXT UNIQUE NOT NULL REFERENCES water_source(uuid),
 	type_uuid TEXT UNIQUE NOT NULL REFERENCES water_line_type(uuid)
 
-);
-COMMENT ON TABLE water_line IS
-    'This is the path of the water lines follow.
+) INHERITS (base_table);
+
+COMMENT ON TABLE water_line IS 'This is the path of the water lines follow.'
 
 
 

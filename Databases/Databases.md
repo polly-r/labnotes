@@ -1,7 +1,11 @@
+When databases are not designed to cope flexibly with future data requirements and the redesign of the database is too costly for the enterprise, there is a potential for reducing the overall data quality because ‘work-arounds’ are developed that overload or misuse columns in the database, or both. The quality is thus imperative. 
+
+CREATE - READ - UPDATE - DELETE
+These are the fundamentals of database use. We outline common actions when dealing with databases.
 
 CRUD
 
-CREATE
+- CREATE
 ```sql
 CREATE TABLE table_name
 (
@@ -13,7 +17,7 @@ column_name2 data_type,
 
 ```
 
-READ
+- READ
 ```sql
 -- Create index so that searches on name return quicker
 create index person_name_idx on people (name);
@@ -76,7 +80,9 @@ CREATE VIEW roads_count as
 SELECT * FROM view(roads_count);
 
 ```
-UPDATE
+
+
+- UPDATE
 ```sql
 UPDATE table_name
 
@@ -90,10 +96,9 @@ WHERE name = 'Main Road';
 
 ```
 
-DELETE
+- DELETE
 ```sql
 DROP TABLE table_name;
 
 DELETE FROM people WHERE name = 'Joe Smith';
-
 ```
