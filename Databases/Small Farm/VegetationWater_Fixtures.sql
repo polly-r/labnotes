@@ -47,6 +47,6 @@ INSERT INTO water_point_type (name) VALUES ('borehole');
 INSERT INTO water_point_type (name) VALUES ('water tank');  
 
 -- WATER LINE TYPE
-INSERT INTO water_line_type (name) VALUES ('river');
+INSERT INTO water_line_type (name) VALUES ('Irrigation');
 INSERT INTO water_line_type (name) VALUES ('stream');
 INSERT INTO water_line_type (name) VALUES ('drinking trough');
