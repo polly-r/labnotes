@@ -1,0 +1,9 @@
+2023-03-31 10:26:13,828 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-03-31 10:26:13,830 --- start download pollyr_/Small_farm
+2023-03-31 10:26:14,902 got project info. version v1
+2023-03-31 10:26:14,907 will download 2 files in 2 chunks, total size 107302
+2023-03-31 10:26:14,936 Downloading Small_farm.qgz version=v1 diff=False part=0
+2023-03-31 10:26:14,947 Downloading Survey_points.gpkg version=v1 diff=False part=0
+2023-03-31 10:26:15,934 Download finished: Small_farm.qgz
+2023-03-31 10:26:15,936 Download finished: Survey_points.gpkg
+2023-03-31 10:26:16,365 --- download finished

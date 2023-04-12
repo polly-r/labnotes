@@ -1,0 +1,197 @@
+{
+  "name": "pollyr_/SmallFarm",
+  "version": "v16",
+  "project_id": "381245d7-ed75-4fb0-b6f3-1066199aac20",
+  "files": [
+    {
+      "checksum": "2807780c04aee03112a4ccdb8897e8f0b0ffe310",
+      "mtime": "2023-04-05T14:23:18.690779Z",
+      "path": "Electricity_Line.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "ebee054776e7a97ec4a4d41095883601464cfaf4",
+      "mtime": "2023-04-05T14:23:18.690784Z",
+      "path": "Electricity_Line_Conditions.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "569a3bffc289216db14328d283f48f1c320154a2",
+      "mtime": "2023-04-05T14:23:18.690785Z",
+      "path": "Electricity_Line_Condition_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "754bdd21ee454c9fcc504c3d2f82de1e259b66a0",
+      "mtime": "2023-04-05T14:23:18.690786Z",
+      "path": "Electricity_Line_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "3def6451ae9c722233994cdfea441a0d60f92b0b",
+      "mtime": "2023-04-05T14:23:18.690787Z",
+      "path": "Harvest_Activity.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "ae8524e8cea16d162e56c301181ec235ba5f604a",
+      "diff": {
+        "checksum": "700f39e9f4124494cc20dd15d391b55be88c9a38",
+        "path": "Infrastructure_Item.gpkg-diff-b2cbc691-e4ac-43e6-a79d-b550d2f29a03",
+        "size": 228
+      },
+      "mtime": "2023-04-05T17:59:10.671817Z",
+      "path": "Infrastructure_Item.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "608c406250fdc1cd3b154348b8a0604bee65e3af",
+      "mtime": "2023-04-05T14:23:18.690788Z",
+      "path": "Infrastructure_Log_Action.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "ecd763ba06a438b0bbdecd91b3993694116a4af9",
+      "mtime": "2023-04-05T14:23:18.690789Z",
+      "path": "Infrastructure_Management_Log.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "f039bf6f95b4afc0b0e6dcc0c4ec1920dd2ca675",
+      "mtime": "2023-04-05T14:23:18.690790Z",
+      "path": "Infrastructure_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "1e3e3a3d6b6b50229a30a6cb7ea3c4adb70f39da",
+      "mtime": "2023-04-05T14:23:18.690791Z",
+      "path": "Month.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "1d219122f7bcdce5f0b331921a33a4042e7c9a2a",
+      "mtime": "2023-04-05T14:23:18.690792Z",
+      "path": "Plant_Growth_Activities.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "716e3086dad78e74277c2698c72f36d5ebfd06f3",
+      "mtime": "2023-04-05T14:23:18.690792Z",
+      "path": "Plant_Growth_Activity_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "cc8a87d346ef650f7815256984d1bf8609b62410",
+      "mtime": "2023-04-05T14:23:18.690793Z",
+      "path": "Plant_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "0f67dea66192a2a97a2a90ccd4cef183c48abfe6",
+      "mtime": "2023-04-05T14:23:18.690793Z",
+      "path": "Plant_Type_Usages.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "9ea04932ea2cc29fa7802fc95468cd4999071b72",
+      "mtime": "2023-04-05T14:23:18.690794Z",
+      "path": "Plant_Usage.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "a393fc453084785cece3b8ae3ba231e874d1f361",
+      "mtime": "2023-04-05T14:23:18.690795Z",
+      "path": "Pruning_Activity.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "0703405c56bbc73f85df65feef0c22f92e60859a",
+      "mtime": "2023-04-06T05:53:51.416456Z",
+      "path": "SmallFarm.qgz",
+      "size": 73015
+    },
+    {
+      "checksum": "139f00b8631603e7280ff6ac4bee28292afff179",
+      "diff": {
+        "checksum": "e1c35b1defceb88bff5b601703ce69fec0d6f69c",
+        "mtime": "2023-04-05T20:44:08.564937+02:00",
+        "path": "SurveyArea.gpkg-diff-cea630b8-cf9c-4f45-9555-b76092b86457",
+        "size": 162
+      },
+      "mtime": "2023-04-05T18:44:10.274474Z",
+      "path": "SurveyArea.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "0b481f4339740b6d88c0b465d93fa2dc318a3958",
+      "diff": {
+        "checksum": "0145bb11de13f6d79ffae9d61306e6e916e4c3dd",
+        "path": "Vegetation_Point.gpkg-diff-4815c7c3-8057-4ec4-8770-25fd2cb722b5",
+        "size": 151
+      },
+      "mtime": "2023-04-06T05:50:56.703361Z",
+      "path": "Vegetation_Point.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "ecab51a2fa92173cbf6116934d5c8064b80cc58f",
+      "diff": {
+        "checksum": "00291e30be732ec19e2ae1dc5075da1257a1bb49",
+        "mtime": "2023-04-05T18:50:13.756883+02:00",
+        "path": "Water_Line.gpkg-diff-90bd7a72-4164-4931-a6ae-db2966047f2d",
+        "size": 544
+      },
+      "mtime": "2023-04-05T16:50:14.357185Z",
+      "path": "Water_Line.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "2612ddef39d4b2a7a3709fdf76b12d2e6c07a715",
+      "mtime": "2023-04-05T14:23:18.690797Z",
+      "path": "Water_Line_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "9733fb810aed4ed93a31409ebb3ba30f65220a91",
+      "diff": {
+        "checksum": "a8d55561889cec077c73f59d35e2ecfa49d7f17a",
+        "mtime": "2023-04-05T18:50:13.769250+02:00",
+        "path": "Water_Point.gpkg-diff-fdf5126f-c074-4e88-b027-4e72d94ca390",
+        "size": 820
+      },
+      "mtime": "2023-04-05T16:50:14.357186Z",
+      "path": "Water_Point.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "f5eca62af3a03b772420f2a301b074e6d15731d8",
+      "mtime": "2023-04-05T14:23:18.690798Z",
+      "path": "Water_Point_Type.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "e0a50040e2297e7a4d4edf4d1127fb2e05776cd9",
+      "mtime": "2023-04-05T14:23:18.690799Z",
+      "path": "Water_Polygon.gpkg",
+      "size": 98304
+    },
+    {
+      "checksum": "13b37764bc681a56996a6f9a35f5b1dc4e1b6d57",
+      "mtime": "2023-04-05T14:23:18.690799Z",
+      "path": "Water_Source.gpkg",
+      "size": 73728
+    },
+    {
+      "checksum": "68f2ec7e5d1c142c9881b66b2a90cf0ad16376ca",
+      "mtime": "2023-04-05T14:23:18.690800Z",
+      "path": "World_Map.gpkg",
+      "size": 3842048
+    },
+    {
+      "checksum": "21f04bf634b3438a9650c866a05615634400449c",
+      "mtime": "2023-04-05T14:52:29.634301Z",
+      "path": "mergin-config.json",
+      "size": 72
+    }
+  ]
+}

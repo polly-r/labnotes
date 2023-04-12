@@ -205,7 +205,7 @@ It is ordered, changeable (editable) but does not allow duplicates, as every key
 ## Error Handling
 This helps us fix problems that occur as a result of user input or incorrect logic. This prevents breaks in the code that may shut down the programme.
 
-In the **'try'**  block, we type the code that is prone to error in the hope that the **'except'** block will pick up on the error and handle it more gracefully. The **'else'** block is for the event that there is no error while in **'finally'** will be executed regardless of whether the error occurred or not.
+In the **'try'**  block, we type the code that is prone to error in the hope that the **'except'** block will pick up on the error and handle it more gracefully. The **'else'** block is for the event that there is no error while **'finally'** will be executed regardless of whether the error occurred or not.
 
 ```python
 lat = 'text'
@@ -234,6 +234,49 @@ f = open('file.txt') # By default, it opens using read. It opens but is not edit
 f = open('file.txt','w')
 for i in range(10):
   f.write(f'{i}\n')
+
+# CSV files
+import csv
+
+## Reading CSV file
+filesname = input("Enter filename/ specify path.")
+with open(filesname, 'r') as csvfile:
+  reader = csv.reader(csvfile)
+  for row in reader:
+    print(row['first_name'], row['last_name'])
+
+### One can read as a dictionary
+with open(sample.csv, newline='') as csvfile:
+  reader = csv.DictReader(csvfile)
+  for row in reader:
+    print(row)
+
+## Write CSV file
+with open(filesname.csv, 'w', newline='') as csvfile:
+  writer = csv.writer(csvfile)
+  writer.writerow(['Zakki', 'Jo', 'Andrew'])
+
+### One can write as a dictionary too
+with open(sample.csv, newline='') as csvfile:
+  fields = ['first_name','last_name']
+  writer = csv.DictWriter(csvfile, fields = fields)
+  for row in reader:
+    print(row)
+
+
+# Shapefiles - fiona
+import fiona
+from fiona import collection
+from fiona.crs import from_epsg
+from shapely.geometry import shapefile
+
+## Opening a shapefile
+with fiona.open('capture_point.shp') as shapefile:
+  for record in shapefile:
+    geom = shape(record['geometry'])
+    print(geom.wkt)
+
+
 ```
 
 ## Functions
@@ -269,4 +312,26 @@ class Human:
 > zakki = Human('Zakki', 16)
 > print(zakki)
 > zakki.eat('pizza')
+```
+
+## Libraries
+#### Shapely
+```python
+import shapely
+from shapely.geometry import Point, Linestring
+from shapely import wkt
+
+# These create point and linestring objects that can be created in various other ways.
+point = Point(0, 0)
+line = Linestring([(0, 0), (1, 1)])
+
+point = wkt.loads("POINT(0 0)")
+
+```
+
+```python
+import pyproj
+
+
+
 ```

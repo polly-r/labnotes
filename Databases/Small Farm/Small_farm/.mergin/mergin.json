@@ -1,0 +1,21 @@
+{
+  "name": "pollyr_/Small_farm",
+  "version": "v1",
+  "project_id": "0790d802-19f9-4200-90d4-76aeb5e69723",
+  "files": [
+    {
+      "checksum": "693ab8352480615e45b8723c6895447875886b87",
+      "mtime": "2023-03-30T22:00:01.291098Z",
+      "path": "Small_farm.qgz",
+      "size": 8998,
+      "version": "v1"
+    },
+    {
+      "checksum": "5638e9c44cddc973cd990eba5b7150938bc3ae85",
+      "mtime": "2023-03-30T22:00:01.291102Z",
+      "path": "Survey_points.gpkg",
+      "size": 98304,
+      "version": "v1"
+    }
+  ]
+}

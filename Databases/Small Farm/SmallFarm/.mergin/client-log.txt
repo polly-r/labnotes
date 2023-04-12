@@ -1,0 +1,728 @@
+2023-04-05 16:23:14,984 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 16:23:14,984 --- start push pollyr_/SmallFarm
+2023-04-05 16:23:16,293 got project info: local version v0 / server version v0
+2023-04-05 16:23:17,507 push changes:
+{'added': [{'checksum': '1beeb8f8f30e76086c98a5b9b23e476c06362562',
+            'chunks': ['5766b5b7-1d29-476a-88a9-6441c7b62e70'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 7, 797654, tzinfo=tzlocal()),
+            'path': 'Electricity_Line.gpkg',
+            'size': 98304},
+           {'checksum': 'ddeb449d83cafa195dbbf2f02c2454e4b3b21315',
+            'chunks': ['63f3cabc-aa8f-42c8-b56e-7969f143c117'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 582041, tzinfo=tzlocal()),
+            'path': 'Electricity_Line_Conditions.gpkg',
+            'size': 73728},
+           {'checksum': '8708367d610685e812574b4109eacb34a38dfc09',
+            'chunks': ['7de260bd-5ca4-4b7a-a183-79acf132856b'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 468010, tzinfo=tzlocal()),
+            'path': 'Electricity_Line_Condition_Type.gpkg',
+            'size': 73728},
+           {'checksum': 'c58cf99a4c3c6d84369074abd07020dc58a01f08',
+            'chunks': ['2fedd25b-b305-446e-af2a-7fcaa96394d2'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 356016, tzinfo=tzlocal()),
+            'path': 'Electricity_Line_Type.gpkg',
+            'size': 73728},
+           {'checksum': '2792debf1af62f22c45cce2c6dd8253fc154baf6',
+            'chunks': ['5ea448d7-86c4-40c9-8f77-81b032a8aa27'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 60236, tzinfo=tzlocal()),
+            'path': 'Harvest_Activity.gpkg',
+            'size': 73728},
+           {'checksum': '181a9fc33d92b223f2d4d8135bb14a43ea6052ba',
+            'chunks': ['f5a94e8a-8508-4867-bd41-b8ea07e0cdcc'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 703040, tzinfo=tzlocal()),
+            'path': 'Infrastructure_Item.gpkg',
+            'size': 98304},
+           {'checksum': 'ef204df00b84336e05be936b1531454c37e03253',
+            'chunks': ['939d0b32-44b3-44f5-a1b3-333ee371d798'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 785293, tzinfo=tzlocal()),
+            'path': 'Infrastructure_Log_Action.gpkg',
+            'size': 73728},
+           {'checksum': '1bc1e79284715340ea5475d3d71f8996ef1d81f1',
+            'chunks': ['534d72df-261e-49ff-9e65-e42981c8f9c8'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 835207, tzinfo=tzlocal()),
+            'path': 'Infrastructure_Management_Log.gpkg',
+            'size': 73728},
+           {'checksum': '6705df8f5fce0acbdb9b77a5b2c3b215a1218a7c',
+            'chunks': ['34956f3a-73b9-4b77-8a8b-07aecc9581bf'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 883203, tzinfo=tzlocal()),
+            'path': 'Infrastructure_Type.gpkg',
+            'size': 73728},
+           {'checksum': 'ccdc2fd801617074a90a8e781d07c337bc587452',
+            'chunks': ['d17b37d6-63c2-422a-928e-7ab265ffc5a8'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 614441, tzinfo=tzlocal()),
+            'path': 'Month.gpkg',
+            'size': 73728},
+           {'checksum': '3b995b2f3a61b77344b632b3d5cb86d0ef1fe4f7',
+            'chunks': ['ca40964d-9d38-49c6-983d-44407aacb6f8'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 427629, tzinfo=tzlocal()),
+            'path': 'Plant_Growth_Activities.gpkg',
+            'size': 73728},
+           {'checksum': '9ba386e617e4eedc03efd9a1ca29b38d1519fa48',
+            'chunks': ['e9ee00e5-2d0c-45bf-b42a-0e52ee3940d4'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 154138, tzinfo=tzlocal()),
+            'path': 'Plant_Growth_Activity_Type.gpkg',
+            'size': 73728},
+           {'checksum': '8015575fca8902bd765b662ace0a9dbeb7291b31',
+            'chunks': ['829b7c37-d9f1-47db-97d1-e058cdb685c2'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 516505, tzinfo=tzlocal()),
+            'path': 'Plant_Type.gpkg',
+            'size': 73728},
+           {'checksum': '84190cad3f305d53033825fa78351e3fdf5cd55f',
+            'chunks': ['9aae3263-3574-4dd4-9eb2-3e6081f1a6de'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 371235, tzinfo=tzlocal()),
+            'path': 'Plant_Type_Usages.gpkg',
+            'size': 73728},
+           {'checksum': '8f6191d1cc5f25206b972b533ab8f76def77e2de',
+            'chunks': ['d611c133-0a99-4e03-9056-8f4f6de80b81'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 693011, tzinfo=tzlocal()),
+            'path': 'Plant_Usage.gpkg',
+            'size': 73728},
+           {'checksum': '39164ad54688102790b8d4e53fb5424b96870b7a',
+            'chunks': ['af53039f-ffec-452d-b787-6e7fc2873f8a'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 265871, tzinfo=tzlocal()),
+            'path': 'Pruning_Activity.gpkg',
+            'size': 73728},
+           {'checksum': '686d2a223e625640b81886762e44d483ccab037d',
+            'chunks': ['b9943127-dc80-4a6e-afe1-f6fa2396bc71'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 11, 414279, tzinfo=tzlocal()),
+            'path': 'SmallFarm.qgz',
+            'size': 72021},
+           {'checksum': 'ad0f1170bc0c38eb20527bbc9ba78f3f1ccdb246',
+            'chunks': ['8c37f00c-0e6f-4947-8add-ef0ce9a5a5dd'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 10, 252306, tzinfo=tzlocal()),
+            'path': 'SurveyArea.gpkg',
+            'size': 98304},
+           {'checksum': 'fb73366319a00b5f4e8ebea2161eeea7d7c2a0c6',
+            'chunks': ['4e68c95c-566b-4b1d-ae9a-193ba5b3059c'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 8, 948466, tzinfo=tzlocal()),
+            'path': 'Vegetation_Point.gpkg',
+            'size': 98304},
+           {'checksum': 'c17c05e46058de9f47fb2d81c807b7fb399aad83',
+            'chunks': ['f93da7e8-0e33-434e-85a8-21ce8b628432'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 873903, tzinfo=tzlocal()),
+            'path': 'Water_Line.gpkg',
+            'size': 98304},
+           {'checksum': 'dddd40e572366e214462efff8e33e76e25b43559',
+            'chunks': ['c452102a-fa73-4a45-b08f-137957f47ec0'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 10, 10458, tzinfo=tzlocal()),
+            'path': 'Water_Line_Type.gpkg',
+            'size': 73728},
+           {'checksum': 'ff419ab05d946c6a3754d140b8c8569d3d084bc0',
+            'chunks': ['2945d53f-e546-4ac8-b1bc-4ace129b751b'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 771739, tzinfo=tzlocal()),
+            'path': 'Water_Point.gpkg',
+            'size': 98304},
+           {'checksum': 'bd597e0f48cf9e7238ef5ad5b27307f505f67078',
+            'chunks': ['3c9f526f-7884-494d-9076-cc8d2c2a47b2'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 10, 149601, tzinfo=tzlocal()),
+            'path': 'Water_Point_Type.gpkg',
+            'size': 73728},
+           {'checksum': 'ee0e0aa587fbac4e349c7ffe96685d14d82f0f9f',
+            'chunks': ['04006148-5c0c-4095-8af4-5d2bb6d80c40'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 9, 943464, tzinfo=tzlocal()),
+            'path': 'Water_Polygon.gpkg',
+            'size': 98304},
+           {'checksum': '195fc56f441cf331849fc8d3f3936887dfb19fa5',
+            'chunks': ['fc91c97d-604b-49a3-8e6d-c0c0b90841a9'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 10, 76414, tzinfo=tzlocal()),
+            'path': 'Water_Source.gpkg',
+            'size': 73728},
+           {'checksum': '5eca4aa6b791f92bb98c8d00d4745109b7ba5587',
+            'chunks': ['78e793d9-abe5-43ef-843b-04d51f23614d'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 23, 10, 679509, tzinfo=tzlocal()),
+            'path': 'World_Map.gpkg',
+            'size': 3842048}],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': []}
+2023-04-05 16:23:17,517 Making a temporary copy (full upload): Electricity_Line.gpkg
+2023-04-05 16:23:17,533 Making a temporary copy (full upload): Electricity_Line_Conditions.gpkg
+2023-04-05 16:23:17,549 Making a temporary copy (full upload): Electricity_Line_Condition_Type.gpkg
+2023-04-05 16:23:17,567 Making a temporary copy (full upload): Electricity_Line_Type.gpkg
+2023-04-05 16:23:17,592 Making a temporary copy (full upload): Harvest_Activity.gpkg
+2023-04-05 16:23:17,603 Making a temporary copy (full upload): Infrastructure_Item.gpkg
+2023-04-05 16:23:17,628 Making a temporary copy (full upload): Infrastructure_Log_Action.gpkg
+2023-04-05 16:23:17,648 Making a temporary copy (full upload): Infrastructure_Management_Log.gpkg
+2023-04-05 16:23:17,665 Making a temporary copy (full upload): Infrastructure_Type.gpkg
+2023-04-05 16:23:17,677 Making a temporary copy (full upload): Month.gpkg
+2023-04-05 16:23:17,692 Making a temporary copy (full upload): Plant_Growth_Activities.gpkg
+2023-04-05 16:23:17,710 Making a temporary copy (full upload): Plant_Growth_Activity_Type.gpkg
+2023-04-05 16:23:17,723 Making a temporary copy (full upload): Plant_Type.gpkg
+2023-04-05 16:23:17,727 Making a temporary copy (full upload): Plant_Type_Usages.gpkg
+2023-04-05 16:23:17,741 Making a temporary copy (full upload): Plant_Usage.gpkg
+2023-04-05 16:23:17,750 Making a temporary copy (full upload): Pruning_Activity.gpkg
+2023-04-05 16:23:17,760 Making a temporary copy (full upload): SurveyArea.gpkg
+2023-04-05 16:23:17,771 Making a temporary copy (full upload): Vegetation_Point.gpkg
+2023-04-05 16:23:17,781 Making a temporary copy (full upload): Water_Line.gpkg
+2023-04-05 16:23:17,790 Making a temporary copy (full upload): Water_Line_Type.gpkg
+2023-04-05 16:23:17,805 Making a temporary copy (full upload): Water_Point.gpkg
+2023-04-05 16:23:17,817 Making a temporary copy (full upload): Water_Point_Type.gpkg
+2023-04-05 16:23:17,827 Making a temporary copy (full upload): Water_Polygon.gpkg
+2023-04-05 16:23:17,839 Making a temporary copy (full upload): Water_Source.gpkg
+2023-04-05 16:23:17,851 Making a temporary copy (full upload): World_Map.gpkg
+2023-04-05 16:23:19,017 got transaction ID 6af12c88-732a-4d8f-8246-4c9a54f090eb
+2023-04-05 16:23:19,017 will upload 26 items with total size 5855573
+2023-04-05 16:23:19,037 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line.gpkg part=0
+2023-04-05 16:23:19,037 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line_Conditions.gpkg part=0
+2023-04-05 16:23:19,037 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line_Condition_Type.gpkg part=0
+2023-04-05 16:23:19,041 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line_Type.gpkg part=0
+2023-04-05 16:23:20,680 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line_Type.gpkg
+2023-04-05 16:23:20,690 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Harvest_Activity.gpkg part=0
+2023-04-05 16:23:20,690 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line_Conditions.gpkg
+2023-04-05 16:23:20,701 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Item.gpkg part=0
+2023-04-05 16:23:20,704 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line.gpkg
+2023-04-05 16:23:20,712 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Electricity_Line_Condition_Type.gpkg
+2023-04-05 16:23:20,717 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Log_Action.gpkg part=0
+2023-04-05 16:23:20,720 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Management_Log.gpkg part=0
+2023-04-05 16:23:22,287 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Harvest_Activity.gpkg
+2023-04-05 16:23:22,289 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Item.gpkg
+2023-04-05 16:23:22,292 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Month.gpkg part=0
+2023-04-05 16:23:22,299 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Type.gpkg part=0
+2023-04-05 16:23:22,387 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Log_Action.gpkg
+2023-04-05 16:23:22,393 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Growth_Activities.gpkg part=0
+2023-04-05 16:23:22,397 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Management_Log.gpkg
+2023-04-05 16:23:22,402 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Growth_Activity_Type.gpkg part=0
+2023-04-05 16:23:23,871 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Month.gpkg
+2023-04-05 16:23:23,871 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Infrastructure_Type.gpkg
+2023-04-05 16:23:23,889 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Type_Usages.gpkg part=0
+2023-04-05 16:23:23,889 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Type.gpkg part=0
+2023-04-05 16:23:23,997 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Growth_Activity_Type.gpkg
+2023-04-05 16:23:23,997 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Usage.gpkg part=0
+2023-04-05 16:23:24,044 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Growth_Activities.gpkg
+2023-04-05 16:23:24,049 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Pruning_Activity.gpkg part=0
+2023-04-05 16:23:25,647 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Type_Usages.gpkg
+2023-04-05 16:23:25,652 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Pruning_Activity.gpkg
+2023-04-05 16:23:25,657 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 16:23:25,667 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\SurveyArea.gpkg part=0
+2023-04-05 16:23:25,667 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Type.gpkg
+2023-04-05 16:23:25,672 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Plant_Usage.gpkg
+2023-04-05 16:23:25,672 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Vegetation_Point.gpkg part=0
+2023-04-05 16:23:25,680 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Line.gpkg part=0
+2023-04-05 16:23:27,950 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 16:23:27,950 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\SurveyArea.gpkg
+2023-04-05 16:23:27,957 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Line_Type.gpkg part=0
+2023-04-05 16:23:27,962 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Point.gpkg part=0
+2023-04-05 16:23:29,968 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Point.gpkg
+2023-04-05 16:23:29,968 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Line_Type.gpkg
+2023-04-05 16:23:29,978 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Point_Type.gpkg part=0
+2023-04-05 16:23:29,978 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Polygon.gpkg part=0
+2023-04-05 16:23:31,117 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Vegetation_Point.gpkg
+2023-04-05 16:23:31,117 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Source.gpkg part=0
+2023-04-05 16:23:31,137 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Line.gpkg
+2023-04-05 16:23:31,152 Uploading C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\World_Map.gpkg part=0
+2023-04-05 16:23:31,927 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Point_Type.gpkg
+2023-04-05 16:23:31,947 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Polygon.gpkg
+2023-04-05 16:23:33,131 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\Water_Source.gpkg
+2023-04-05 16:23:36,577 Upload finished: C:\Users\polly\AppData\Local\Temp\mergin-py-client-fa9samgu\World_Map.gpkg
+2023-04-05 16:23:36,687 Finishing transaction 6af12c88-732a-4d8f-8246-4c9a54f090eb
+2023-04-05 16:23:39,043 --- push finished - new project version v1
+2023-04-05 16:52:19,241 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 16:52:19,242 --- start pull pollyr_/SmallFarm
+2023-04-05 16:52:21,732 got project info: local version v1 / server version v2
+2023-04-05 16:52:21,775 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'f934c7d850d93c3cc82e928dc6d706a28382617a',
+              'diff': {'checksum': '38d803e4b3fc0470b60dfbebafa9b1a94f4ccaab',
+                       'path': 'Vegetation_Point.gpkg-diff-876e3671-1328-4193-8fe1-74e17705e5ef',
+                       'size': 151},
+              'diffs': ['Vegetation_Point.gpkg-diff-876e3671-1328-4193-8fe1-74e17705e5ef'],
+              'history': {'v1': {'change': 'added',
+                                 'checksum': '2e70a8d46f28f5978274d0608bf01a3206b44f8f',
+                                 'mtime': '2023-04-05T14:23:18.690796Z',
+                                 'path': 'Vegetation_Point.gpkg',
+                                 'size': 98304,
+                                 'upload_file': 'C:\\Users\\polly\\AppData\\Local\\Temp\\mergin-py-client-fa9samgu\\Vegetation_Point.gpkg'},
+                          'v2': {'change': 'updated',
+                                 'checksum': 'f934c7d850d93c3cc82e928dc6d706a28382617a',
+                                 'diff': {'checksum': '38d803e4b3fc0470b60dfbebafa9b1a94f4ccaab',
+                                          'path': 'Vegetation_Point.gpkg-diff-876e3671-1328-4193-8fe1-74e17705e5ef',
+                                          'size': 151},
+                                 'mtime': '2023-04-05T14:51:35.996366Z',
+                                 'path': 'Vegetation_Point.gpkg',
+                                 'size': 98304}},
+              'mtime': '2023-04-05T14:51:35.996366Z',
+              'origin_checksum': '2e70a8d46f28f5978274d0608bf01a3206b44f8f',
+              'path': 'Vegetation_Point.gpkg',
+              'size': 98304}]}
+2023-04-05 16:52:21,784 will download 1 chunks, total size 151
+2023-04-05 16:52:21,784 Downloading Vegetation_Point.gpkg version=v2 diff=True part=0
+2023-04-05 16:52:22,935 Download finished: Vegetation_Point.gpkg
+2023-04-05 16:52:22,992 finalizing pull
+2023-04-05 16:52:23,771 updating file without rebase: Vegetation_Point.gpkg
+2023-04-05 16:52:23,840 update successful
+2023-04-05 16:52:23,848 --- pull finished -- at version v2
+2023-04-05 16:52:25,550 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 16:52:25,550 --- start push pollyr_/SmallFarm
+2023-04-05 16:52:26,639 got project info: local version v2 / server version v2
+2023-04-05 16:52:28,547 push changes:
+{'added': [{'checksum': '21f04bf634b3438a9650c866a05615634400449c',
+            'chunks': ['214ac2a1-c76a-4691-a9d9-58beb7e72a21'],
+            'mtime': datetime.datetime(2023, 4, 5, 16, 43, 24, 280514, tzinfo=tzlocal()),
+            'path': 'mergin-config.json',
+            'size': 72}],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'cec93cea51ad9722d3442292f35f9379420c5f61',
+              'chunks': ['b41ab7d7-627b-4cec-bb5f-02811b525f70'],
+              'mtime': datetime.datetime(2023, 4, 5, 16, 52, 6, 117409, tzinfo=tzlocal()),
+              'origin_checksum': '686d2a223e625640b81886762e44d483ccab037d',
+              'path': 'SmallFarm.qgz',
+              'size': 72141}]}
+2023-04-05 16:52:29,947 got transaction ID 2c222386-56c4-4fca-ac10-1f6e766d2e8b
+2023-04-05 16:52:29,947 will upload 2 items with total size 72213
+2023-04-05 16:52:29,962 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\mergin-config.json part=0
+2023-04-05 16:52:29,968 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 16:52:31,172 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\mergin-config.json
+2023-04-05 16:52:31,602 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 16:52:31,635 Finishing transaction 2c222386-56c4-4fca-ac10-1f6e766d2e8b
+2023-04-05 16:52:32,874 --- push finished - new project version v3
+2023-04-05 17:56:15,021 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Electricity_Line.gpkg
+2023-04-05 17:56:15,027 checkpoint - return value: (0, 0, 0)
+2023-04-05 17:56:15,037 checkpoint - new size 98304 checksum 15df8c80ccff3cd1ed2ede7b6cd204566f598beb
+2023-04-05 17:56:22,116 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Electricity_Line.gpkg
+2023-04-05 17:56:22,122 checkpoint - return value: (0, 25, 25)
+2023-04-05 17:56:22,129 checkpoint - new size 98304 checksum bc95b6ffb8f4e038a323c2ab756db85c1826566d
+2023-04-05 17:56:22,816 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 17:56:22,816 --- start pull pollyr_/SmallFarm
+2023-04-05 17:56:23,766 got project info: local version v3 / server version v3
+2023-04-05 17:56:23,766 --- pull - nothing to do (already at server version)
+2023-04-05 17:56:25,126 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 17:56:25,126 --- start push pollyr_/SmallFarm
+2023-04-05 17:56:26,066 got project info: local version v3 / server version v3
+2023-04-05 17:56:27,348 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Electricity_Line.gpkg
+2023-04-05 17:56:27,363 checkpoint - return value: (0, 24, 24)
+2023-04-05 17:56:27,374 checkpoint - new size 98304 checksum e5d42fd967d6bd2a241c60beceaa330376281d6f
+2023-04-05 17:56:27,761 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '48e04a5550bcfddcb11a33362b9f7fe8e0ec065c',
+              'chunks': ['b62013ef-623e-4c25-8abe-5fcf688d6054'],
+              'mtime': datetime.datetime(2023, 4, 5, 17, 56, 13, 383924, tzinfo=tzlocal()),
+              'origin_checksum': 'cec93cea51ad9722d3442292f35f9379420c5f61',
+              'path': 'SmallFarm.qgz',
+              'size': 70141}]}
+2023-04-05 17:56:28,779 got transaction ID 222d2b99-9d48-4230-bd05-2dd2b86c3423
+2023-04-05 17:56:28,786 will upload 1 items with total size 70141
+2023-04-05 17:56:28,796 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 17:56:30,331 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 17:56:30,343 Finishing transaction 222d2b99-9d48-4230-bd05-2dd2b86c3423
+2023-04-05 17:56:31,306 --- push finished - new project version v4
+2023-04-05 18:50:09,217 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 18:50:09,217 --- start pull pollyr_/SmallFarm
+2023-04-05 18:50:10,167 got project info: local version v4 / server version v4
+2023-04-05 18:50:10,167 --- pull - nothing to do (already at server version)
+2023-04-05 18:50:11,343 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 18:50:11,343 --- start push pollyr_/SmallFarm
+2023-04-05 18:50:12,750 got project info: local version v4 / server version v4
+2023-04-05 18:50:13,811 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '33485ce5312d3b8bb5ff956258d9de2b45bd5c3a',
+              'chunks': ['7f963dfd-75f4-4ce3-b1a0-49083463b54e'],
+              'mtime': datetime.datetime(2023, 4, 5, 18, 46, 43, 547200, tzinfo=tzlocal()),
+              'origin_checksum': '48e04a5550bcfddcb11a33362b9f7fe8e0ec065c',
+              'path': 'SmallFarm.qgz',
+              'size': 81588},
+             {'checksum': '0b8fe94b9658e49d4649eef267033681bd067206',
+              'chunks': ['e86f5420-7e4d-4ade-bee9-35805b3a3b74'],
+              'diff': {'checksum': '00291e30be732ec19e2ae1dc5075da1257a1bb49',
+                       'mtime': datetime.datetime(2023, 4, 5, 18, 50, 13, 756883, tzinfo=tzlocal()),
+                       'path': 'Water_Line.gpkg-diff-90bd7a72-4164-4931-a6ae-db2966047f2d',
+                       'size': 544},
+              'mtime': datetime.datetime(2023, 4, 5, 17, 59, 17, 717929, tzinfo=tzlocal()),
+              'origin_checksum': '0b8fe94b9658e49d4649eef267033681bd067206',
+              'path': 'Water_Line.gpkg',
+              'size': 98304},
+             {'checksum': 'c707f635316ab9554086867a5a6d6dc2deda8e4b',
+              'chunks': ['4c795538-2cfd-43f3-8ab3-3883b12705b4'],
+              'diff': {'checksum': 'a8d55561889cec077c73f59d35e2ecfa49d7f17a',
+                       'mtime': datetime.datetime(2023, 4, 5, 18, 50, 13, 769250, tzinfo=tzlocal()),
+                       'path': 'Water_Point.gpkg-diff-fdf5126f-c074-4e88-b027-4e72d94ca390',
+                       'size': 820},
+              'mtime': datetime.datetime(2023, 4, 5, 17, 59, 54, 877078, tzinfo=tzlocal()),
+              'origin_checksum': 'c707f635316ab9554086867a5a6d6dc2deda8e4b',
+              'path': 'Water_Point.gpkg',
+              'size': 98304}]}
+2023-04-05 18:50:14,696 got transaction ID c42586b1-2d53-4570-b8ba-6f4eee1ccad0
+2023-04-05 18:50:14,696 will upload 3 items with total size 82952
+2023-04-05 18:50:14,712 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 18:50:14,712 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\.mergin\Water_Line.gpkg-diff-90bd7a72-4164-4931-a6ae-db2966047f2d part=0
+2023-04-05 18:50:14,712 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\.mergin\Water_Point.gpkg-diff-fdf5126f-c074-4e88-b027-4e72d94ca390 part=0
+2023-04-05 18:50:15,592 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\.mergin\Water_Line.gpkg-diff-90bd7a72-4164-4931-a6ae-db2966047f2d
+2023-04-05 18:50:15,606 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\.mergin\Water_Point.gpkg-diff-fdf5126f-c074-4e88-b027-4e72d94ca390
+2023-04-05 18:50:15,954 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 18:50:16,048 Finishing transaction c42586b1-2d53-4570-b8ba-6f4eee1ccad0
+2023-04-05 18:50:18,719 updating basefile (diff) for: Water_Line.gpkg
+2023-04-05 18:50:18,734 updating basefile (diff) for: Water_Point.gpkg
+2023-04-05 18:50:18,734 --- push finished - new project version v5
+2023-04-05 18:58:01,218 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 18:58:01,218 --- start pull pollyr_/SmallFarm
+2023-04-05 18:58:02,239 got project info: local version v5 / server version v5
+2023-04-05 18:58:02,239 --- pull - nothing to do (already at server version)
+2023-04-05 18:58:03,428 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 18:58:03,428 --- start push pollyr_/SmallFarm
+2023-04-05 18:58:04,314 got project info: local version v5 / server version v5
+2023-04-05 18:58:05,440 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'd139b5c1dc262e6c3508105dde77c6a740e485af',
+              'chunks': ['ad2054a4-3490-4623-957e-7e8d69dc5233'],
+              'mtime': datetime.datetime(2023, 4, 5, 18, 57, 53, 668730, tzinfo=tzlocal()),
+              'origin_checksum': '33485ce5312d3b8bb5ff956258d9de2b45bd5c3a',
+              'path': 'SmallFarm.qgz',
+              'size': 81592}]}
+2023-04-05 18:58:06,386 got transaction ID c0e516e8-32e8-466c-acc7-4bdec6299a46
+2023-04-05 18:58:06,386 will upload 1 items with total size 81592
+2023-04-05 18:58:06,389 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 18:58:08,036 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 18:58:08,043 Finishing transaction c0e516e8-32e8-466c-acc7-4bdec6299a46
+2023-04-05 18:58:08,988 --- push finished - new project version v6
+2023-04-05 20:00:25,440 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:00:25,440 --- start pull pollyr_/SmallFarm
+2023-04-05 20:00:26,808 got project info: local version v6 / server version v7
+2023-04-05 20:00:26,824 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'ae8524e8cea16d162e56c301181ec235ba5f604a',
+              'diff': {'checksum': '700f39e9f4124494cc20dd15d391b55be88c9a38',
+                       'path': 'Infrastructure_Item.gpkg-diff-b2cbc691-e4ac-43e6-a79d-b550d2f29a03',
+                       'size': 228},
+              'diffs': ['Infrastructure_Item.gpkg-diff-b2cbc691-e4ac-43e6-a79d-b550d2f29a03'],
+              'history': {'v7': {'change': 'updated',
+                                 'checksum': 'ae8524e8cea16d162e56c301181ec235ba5f604a',
+                                 'diff': {'checksum': '700f39e9f4124494cc20dd15d391b55be88c9a38',
+                                          'path': 'Infrastructure_Item.gpkg-diff-b2cbc691-e4ac-43e6-a79d-b550d2f29a03',
+                                          'size': 228},
+                                 'mtime': '2023-04-05T17:59:10.671817Z',
+                                 'path': 'Infrastructure_Item.gpkg',
+                                 'size': 98304}},
+              'mtime': '2023-04-05T17:59:10.671817Z',
+              'origin_checksum': 'defbde31b1776b27c21f472adb7a14f6bb6f30ff',
+              'path': 'Infrastructure_Item.gpkg',
+              'size': 98304}]}
+2023-04-05 20:00:26,824 will download 1 chunks, total size 228
+2023-04-05 20:00:26,840 Downloading Infrastructure_Item.gpkg version=v7 diff=True part=0
+2023-04-05 20:00:28,533 Download finished: Infrastructure_Item.gpkg
+2023-04-05 20:00:28,584 finalizing pull
+2023-04-05 20:00:28,889 updating file without rebase: Infrastructure_Item.gpkg
+2023-04-05 20:00:28,940 update successful
+2023-04-05 20:00:28,945 --- pull finished -- at version v7
+2023-04-05 20:00:29,325 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:00:29,325 --- start push pollyr_/SmallFarm
+2023-04-05 20:00:31,303 got project info: local version v7 / server version v7
+2023-04-05 20:00:33,000 push changes:
+{'added': [], 'removed': [], 'renamed': [], 'updated': []}
+2023-04-05 20:00:33,000 --- push pollyr_/SmallFarm - nothing to do
+2023-04-05 20:01:43,699 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:01:43,699 --- start pull pollyr_/SmallFarm
+2023-04-05 20:01:45,334 got project info: local version v7 / server version v8
+2023-04-05 20:01:45,366 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'fb5d163759ef45012afda0a768dc3977d2b55f43',
+              'diff': {'checksum': 'f63e7edc33af04723190b72d34da69aca10c00b3',
+                       'path': 'Vegetation_Point.gpkg-diff-f7c36d59-a14d-4477-8da8-c71758f0ae50',
+                       'size': 151},
+              'diffs': ['Vegetation_Point.gpkg-diff-f7c36d59-a14d-4477-8da8-c71758f0ae50'],
+              'history': {'v8': {'change': 'updated',
+                                 'checksum': 'fb5d163759ef45012afda0a768dc3977d2b55f43',
+                                 'diff': {'checksum': 'f63e7edc33af04723190b72d34da69aca10c00b3',
+                                          'path': 'Vegetation_Point.gpkg-diff-f7c36d59-a14d-4477-8da8-c71758f0ae50',
+                                          'size': 151},
+                                 'mtime': '2023-04-05T18:01:29.157444Z',
+                                 'path': 'Vegetation_Point.gpkg',
+                                 'size': 98304}},
+              'mtime': '2023-04-05T18:01:29.157444Z',
+              'origin_checksum': 'f934c7d850d93c3cc82e928dc6d706a28382617a',
+              'path': 'Vegetation_Point.gpkg',
+              'size': 98304}]}
+2023-04-05 20:01:45,366 will download 1 chunks, total size 151
+2023-04-05 20:01:45,366 Downloading Vegetation_Point.gpkg version=v8 diff=True part=0
+2023-04-05 20:01:47,218 Download finished: Vegetation_Point.gpkg
+2023-04-05 20:01:47,231 finalizing pull
+2023-04-05 20:01:47,553 updating file without rebase: Vegetation_Point.gpkg
+2023-04-05 20:01:47,580 update successful
+2023-04-05 20:01:47,583 --- pull finished -- at version v8
+2023-04-05 20:01:47,961 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:01:47,961 --- start push pollyr_/SmallFarm
+2023-04-05 20:01:49,841 got project info: local version v8 / server version v8
+2023-04-05 20:01:51,448 push changes:
+{'added': [], 'removed': [], 'renamed': [], 'updated': []}
+2023-04-05 20:01:51,448 --- push pollyr_/SmallFarm - nothing to do
+2023-04-05 20:04:28,808 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:04:28,808 --- start pull pollyr_/SmallFarm
+2023-04-05 20:04:30,402 got project info: local version v8 / server version v8
+2023-04-05 20:04:30,402 --- pull - nothing to do (already at server version)
+2023-04-05 20:04:32,272 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:04:32,272 --- start push pollyr_/SmallFarm
+2023-04-05 20:04:33,682 got project info: local version v8 / server version v8
+2023-04-05 20:04:35,330 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '3c2c5af351bf4cda76495f1779e8acdad5fd9196',
+              'chunks': ['461e2728-36a4-42c4-abf7-32706a38de45'],
+              'mtime': datetime.datetime(2023, 4, 5, 20, 4, 11, 88121, tzinfo=tzlocal()),
+              'origin_checksum': 'd139b5c1dc262e6c3508105dde77c6a740e485af',
+              'path': 'SmallFarm.qgz',
+              'size': 80463}]}
+2023-04-05 20:04:36,642 got transaction ID d69e5fe9-3712-4f95-90be-97b796cbbdc1
+2023-04-05 20:04:36,642 will upload 1 items with total size 80463
+2023-04-05 20:04:36,657 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 20:04:38,939 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 20:04:38,955 Finishing transaction d69e5fe9-3712-4f95-90be-97b796cbbdc1
+2023-04-05 20:04:39,971 --- push finished - new project version v9
+2023-04-05 20:06:52,651 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:06:52,651 --- start pull pollyr_/SmallFarm
+2023-04-05 20:06:53,989 got project info: local version v9 / server version v9
+2023-04-05 20:06:53,989 --- pull - nothing to do (already at server version)
+2023-04-05 20:06:56,459 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:06:56,459 --- start push pollyr_/SmallFarm
+2023-04-05 20:06:58,576 got project info: local version v9 / server version v9
+2023-04-05 20:07:00,319 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'b1c1aae5349ac740dc6dfacb6f629f8334fbd215',
+              'chunks': ['57e997d3-d194-4069-8eb7-9e767045a051'],
+              'mtime': datetime.datetime(2023, 4, 5, 20, 6, 45, 18626, tzinfo=tzlocal()),
+              'origin_checksum': '3c2c5af351bf4cda76495f1779e8acdad5fd9196',
+              'path': 'SmallFarm.qgz',
+              'size': 81479}]}
+2023-04-05 20:07:01,756 got transaction ID b6b8cd1e-a80f-4915-9a04-0c10f8fa8d9c
+2023-04-05 20:07:01,756 will upload 1 items with total size 81479
+2023-04-05 20:07:01,768 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 20:07:03,861 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 20:07:03,955 Finishing transaction b6b8cd1e-a80f-4915-9a04-0c10f8fa8d9c
+2023-04-05 20:07:04,945 --- push finished - new project version v10
+2023-04-05 20:44:01,658 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:44:01,658 --- start pull pollyr_/SmallFarm
+2023-04-05 20:44:03,126 got project info: local version v10 / server version v10
+2023-04-05 20:44:03,126 --- pull - nothing to do (already at server version)
+2023-04-05 20:44:05,161 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 20:44:05,161 --- start push pollyr_/SmallFarm
+2023-04-05 20:44:06,656 got project info: local version v10 / server version v10
+2023-04-05 20:44:08,643 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '91b66d3b60bb316d30b785fafc89b6c055179a42',
+              'chunks': ['3487388a-9f56-4acd-85d0-a5191098316a'],
+              'mtime': datetime.datetime(2023, 4, 5, 20, 43, 49, 474496, tzinfo=tzlocal()),
+              'origin_checksum': 'b1c1aae5349ac740dc6dfacb6f629f8334fbd215',
+              'path': 'SmallFarm.qgz',
+              'size': 72880},
+             {'checksum': 'c0ab7be5af400be9da9c47635bc0f531e172c57f',
+              'chunks': ['9bfc7f52-cb3c-4283-b4c2-23da76e75c1a'],
+              'diff': {'checksum': 'e1c35b1defceb88bff5b601703ce69fec0d6f69c',
+                       'mtime': datetime.datetime(2023, 4, 5, 20, 44, 8, 564937, tzinfo=tzlocal()),
+                       'path': 'SurveyArea.gpkg-diff-cea630b8-cf9c-4f45-9555-b76092b86457',
+                       'size': 162},
+              'mtime': datetime.datetime(2023, 4, 5, 20, 43, 48, 876066, tzinfo=tzlocal()),
+              'origin_checksum': 'c0ab7be5af400be9da9c47635bc0f531e172c57f',
+              'path': 'SurveyArea.gpkg',
+              'size': 98304}]}
+2023-04-05 20:44:10,096 got transaction ID 9adbfca0-03c0-41fa-b732-d1412ccbf213
+2023-04-05 20:44:10,096 will upload 2 items with total size 73042
+2023-04-05 20:44:10,112 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\.mergin\SurveyArea.gpkg-diff-cea630b8-cf9c-4f45-9555-b76092b86457 part=0
+2023-04-05 20:44:10,112 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 20:44:12,365 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 20:44:12,587 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\.mergin\SurveyArea.gpkg-diff-cea630b8-cf9c-4f45-9555-b76092b86457
+2023-04-05 20:44:12,650 Finishing transaction 9adbfca0-03c0-41fa-b732-d1412ccbf213
+2023-04-05 20:44:14,072 updating basefile (diff) for: SurveyArea.gpkg
+2023-04-05 20:44:14,104 --- push finished - new project version v11
+2023-04-05 21:42:39,121 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:42:39,121 --- start pull pollyr_/SmallFarm
+2023-04-05 21:42:40,338 got project info: local version v11 / server version v11
+2023-04-05 21:42:40,338 --- pull - nothing to do (already at server version)
+2023-04-05 21:42:43,494 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:42:43,494 --- start push pollyr_/SmallFarm
+2023-04-05 21:42:45,802 got project info: local version v11 / server version v11
+2023-04-05 21:42:46,956 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '9f1202f1b0e44f6d4a8a282b6d02a013c10c1443',
+              'chunks': ['394983c8-6388-430d-8aae-def6019e67b1'],
+              'mtime': datetime.datetime(2023, 4, 5, 21, 42, 25, 202063, tzinfo=tzlocal()),
+              'origin_checksum': '91b66d3b60bb316d30b785fafc89b6c055179a42',
+              'path': 'SmallFarm.qgz',
+              'size': 72833}]}
+2023-04-05 21:42:49,248 got transaction ID 84d8b930-405f-45b7-8a64-17f559030619
+2023-04-05 21:42:49,248 will upload 1 items with total size 72833
+2023-04-05 21:42:49,259 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 21:42:50,534 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 21:42:50,570 Finishing transaction 84d8b930-405f-45b7-8a64-17f559030619
+2023-04-05 21:42:51,524 --- push finished - new project version v12
+2023-04-05 21:55:29,252 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:55:29,252 --- start pull pollyr_/SmallFarm
+2023-04-05 21:55:30,297 got project info: local version v12 / server version v12
+2023-04-05 21:55:30,297 --- pull - nothing to do (already at server version)
+2023-04-05 21:55:32,967 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:55:32,967 --- start push pollyr_/SmallFarm
+2023-04-05 21:55:34,583 got project info: local version v12 / server version v12
+2023-04-05 21:55:35,810 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'fb4f7748f7485bc361336a1756672d73e9d96e53',
+              'chunks': ['5b6dab66-5574-4caa-8b0f-5473f342c3c4'],
+              'mtime': datetime.datetime(2023, 4, 5, 21, 54, 55, 839940, tzinfo=tzlocal()),
+              'origin_checksum': '9f1202f1b0e44f6d4a8a282b6d02a013c10c1443',
+              'path': 'SmallFarm.qgz',
+              'size': 72980}]}
+2023-04-05 21:55:36,730 Error starting transaction: Another process is running. Please try later.
+2023-04-05 21:55:36,730 --- push aborted
+2023-04-05 21:56:32,152 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:56:32,152 --- start pull pollyr_/SmallFarm
+2023-04-05 21:56:33,656 got project info: local version v12 / server version v12
+2023-04-05 21:56:33,656 --- pull - nothing to do (already at server version)
+2023-04-05 21:56:35,428 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:56:35,429 --- start push pollyr_/SmallFarm
+2023-04-05 21:56:37,223 got project info: local version v12 / server version v12
+2023-04-05 21:56:38,469 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'fb4f7748f7485bc361336a1756672d73e9d96e53',
+              'chunks': ['d8bb1843-b9a9-4ba1-b03a-13ab46d8ebc8'],
+              'mtime': datetime.datetime(2023, 4, 5, 21, 54, 55, 839940, tzinfo=tzlocal()),
+              'origin_checksum': '9f1202f1b0e44f6d4a8a282b6d02a013c10c1443',
+              'path': 'SmallFarm.qgz',
+              'size': 72980}]}
+2023-04-05 21:56:39,350 Error starting transaction: Another process is running. Please try later.
+2023-04-05 21:56:39,350 --- push aborted
+2023-04-05 21:58:08,878 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:58:08,878 --- start pull pollyr_/SmallFarm
+2023-04-05 21:58:10,084 got project info: local version v12 / server version v12
+2023-04-05 21:58:10,100 --- pull - nothing to do (already at server version)
+2023-04-05 21:58:11,433 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:58:11,433 --- start push pollyr_/SmallFarm
+2023-04-05 21:58:13,134 got project info: local version v12 / server version v12
+2023-04-05 21:58:16,047 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'fb4f7748f7485bc361336a1756672d73e9d96e53',
+              'chunks': ['46463435-fca2-402c-b5bc-22a9cb60283d'],
+              'mtime': datetime.datetime(2023, 4, 5, 21, 54, 55, 839940, tzinfo=tzlocal()),
+              'origin_checksum': '9f1202f1b0e44f6d4a8a282b6d02a013c10c1443',
+              'path': 'SmallFarm.qgz',
+              'size': 72980}]}
+2023-04-05 21:58:16,907 Error starting transaction: Another process is running. Please try later.
+2023-04-05 21:58:16,907 --- push aborted
+2023-04-05 21:59:43,568 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:59:43,568 --- start pull pollyr_/SmallFarm
+2023-04-05 21:59:44,577 got project info: local version v12 / server version v12
+2023-04-05 21:59:44,577 --- pull - nothing to do (already at server version)
+2023-04-05 21:59:46,348 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 21:59:46,348 --- start push pollyr_/SmallFarm
+2023-04-05 21:59:48,584 got project info: local version v12 / server version v12
+2023-04-05 21:59:49,736 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'fb4f7748f7485bc361336a1756672d73e9d96e53',
+              'chunks': ['0b7114d0-618f-48f6-8753-089b04b49c8b'],
+              'mtime': datetime.datetime(2023, 4, 5, 21, 54, 55, 839940, tzinfo=tzlocal()),
+              'origin_checksum': '9f1202f1b0e44f6d4a8a282b6d02a013c10c1443',
+              'path': 'SmallFarm.qgz',
+              'size': 72980}]}
+2023-04-05 21:59:50,639 got transaction ID 75b9ed94-b98e-4c46-bd6b-6a5bd9decdd3
+2023-04-05 21:59:50,639 will upload 1 items with total size 72980
+2023-04-05 21:59:50,652 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 21:59:52,766 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 21:59:52,846 Finishing transaction 75b9ed94-b98e-4c46-bd6b-6a5bd9decdd3
+2023-04-05 21:59:53,880 --- push finished - new project version v13
+2023-04-05 22:11:06,553 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 22:11:06,553 --- start pull pollyr_/SmallFarm
+2023-04-05 22:11:09,315 got project info: local version v13 / server version v13
+2023-04-05 22:11:09,315 --- pull - nothing to do (already at server version)
+2023-04-05 22:11:10,708 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-05 22:11:10,708 --- start push pollyr_/SmallFarm
+2023-04-05 22:11:12,707 got project info: local version v13 / server version v13
+2023-04-05 22:11:14,382 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'a8e313ed9d55d35df904b05ddec740644d957730',
+              'chunks': ['09eb7929-de28-431a-b554-1688a6371534'],
+              'mtime': datetime.datetime(2023, 4, 5, 22, 10, 54, 25076, tzinfo=tzlocal()),
+              'origin_checksum': 'fb4f7748f7485bc361336a1756672d73e9d96e53',
+              'path': 'SmallFarm.qgz',
+              'size': 75582}]}
+2023-04-05 22:11:16,390 got transaction ID f0db67fa-44ce-43d7-b386-d8697e998fc6
+2023-04-05 22:11:16,393 will upload 1 items with total size 75582
+2023-04-05 22:11:16,405 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-05 22:11:18,317 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-05 22:11:18,368 Finishing transaction f0db67fa-44ce-43d7-b386-d8697e998fc6
+2023-04-05 22:11:19,509 --- push finished - new project version v14
+2023-04-06 07:53:38,367 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Vegetation_Point.gpkg
+2023-04-06 07:53:38,373 checkpoint - return value: (0, 1, 1)
+2023-04-06 07:53:38,377 checkpoint - new size 98304 checksum f29747703ca881be57ebeec4566b952b86e5be5a
+2023-04-06 07:53:44,266 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Vegetation_Point.gpkg
+2023-04-06 07:53:44,273 checkpoint - return value: (0, 24, 24)
+2023-04-06 07:53:44,276 checkpoint - new size 98304 checksum fcd9ffe7a011be569a3c4ad681fb95096e915892
+2023-04-06 07:53:44,832 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-06 07:53:44,832 --- start pull pollyr_/SmallFarm
+2023-04-06 07:53:45,758 got project info: local version v14 / server version v15
+2023-04-06 07:53:45,771 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '0b481f4339740b6d88c0b465d93fa2dc318a3958',
+              'diff': {'checksum': '0145bb11de13f6d79ffae9d61306e6e916e4c3dd',
+                       'path': 'Vegetation_Point.gpkg-diff-4815c7c3-8057-4ec4-8770-25fd2cb722b5',
+                       'size': 151},
+              'diffs': ['Vegetation_Point.gpkg-diff-4815c7c3-8057-4ec4-8770-25fd2cb722b5'],
+              'history': {'v15': {'change': 'updated',
+                                  'checksum': '0b481f4339740b6d88c0b465d93fa2dc318a3958',
+                                  'diff': {'checksum': '0145bb11de13f6d79ffae9d61306e6e916e4c3dd',
+                                           'path': 'Vegetation_Point.gpkg-diff-4815c7c3-8057-4ec4-8770-25fd2cb722b5',
+                                           'size': 151},
+                                  'mtime': '2023-04-06T05:50:56.703361Z',
+                                  'path': 'Vegetation_Point.gpkg',
+                                  'size': 98304}},
+              'mtime': '2023-04-06T05:50:56.703361Z',
+              'origin_checksum': 'fb5d163759ef45012afda0a768dc3977d2b55f43',
+              'path': 'Vegetation_Point.gpkg',
+              'size': 98304}]}
+2023-04-06 07:53:45,772 will download 1 chunks, total size 151
+2023-04-06 07:53:45,774 Downloading Vegetation_Point.gpkg version=v15 diff=True part=0
+2023-04-06 07:53:46,621 Download finished: Vegetation_Point.gpkg
+2023-04-06 07:53:46,641 finalizing pull
+2023-04-06 07:53:46,703 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Vegetation_Point.gpkg
+2023-04-06 07:53:46,707 checkpoint - return value: (0, 24, 24)
+2023-04-06 07:53:46,711 checkpoint - new size 98304 checksum 423e43b81b1ac6b19563e3439425004eb68a7ee7
+2023-04-06 07:53:46,947 updating file without rebase: Vegetation_Point.gpkg
+2023-04-06 07:53:46,973 update successful
+2023-04-06 07:53:46,977 --- pull finished -- at version v15
+2023-04-06 07:53:48,229 --- version: Python-client/0.8.0 Plugin/2023.1 QGIS/3.30.0 (Windows/10)
+2023-04-06 07:53:48,229 --- start push pollyr_/SmallFarm
+2023-04-06 07:53:49,070 got project info: local version v15 / server version v15
+2023-04-06 07:53:49,927 checkpoint - going to add it in C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\Vegetation_Point.gpkg
+2023-04-06 07:53:49,933 checkpoint - return value: (0, 29, 29)
+2023-04-06 07:53:49,937 checkpoint - new size 98304 checksum 6379d203003fa6a92ad49e26865cd7795e205e63
+2023-04-06 07:53:50,160 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '0703405c56bbc73f85df65feef0c22f92e60859a',
+              'chunks': ['aa021648-2933-4cf8-bced-95b621b81c3d'],
+              'mtime': datetime.datetime(2023, 4, 6, 7, 53, 35, 632267, tzinfo=tzlocal()),
+              'origin_checksum': 'a8e313ed9d55d35df904b05ddec740644d957730',
+              'path': 'SmallFarm.qgz',
+              'size': 73015}]}
+2023-04-06 07:53:51,039 got transaction ID ae9a195a-d5be-4cce-bdee-a02680e4b94a
+2023-04-06 07:53:51,040 will upload 1 items with total size 73015
+2023-04-06 07:53:51,043 Uploading C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz part=0
+2023-04-06 07:53:52,255 Upload finished: C:\Users\polly\Documents\labnotes\Databases\Small Farm\SmallFarm\SmallFarm.qgz
+2023-04-06 07:53:52,352 Finishing transaction ae9a195a-d5be-4cce-bdee-a02680e4b94a
+2023-04-06 07:53:53,263 --- push finished - new project version v16
